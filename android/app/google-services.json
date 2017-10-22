@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "640371889779",
+    "firebase_url": "https://inoibai-f9bbf.firebaseio.com",
+    "project_id": "inoibai-f9bbf",
+    "storage_bucket": "inoibai-f9bbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640371889779:android:bab82ff3952133f6",
+        "android_client_info": {
+          "package_name": "com.witaidemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640371889779-cahb7k65em6hr32sg4uh2eus24651og4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2j_MgErE4OxJuF_8OeNwXkYJrGqOnr5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "witAIdemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "release-ios": "react-native run-ios --configuration Release",
+    "release-ios-device": "react-native run-ios --configuration Release --device",
+    "ios": "react-native run-ios",
+    "ios-device": "react-native run-ios --device",
+    "android": "react-native run-android",
+    "release-android": "cd android & gradlew assembleRelease",
+    "release-android-console": "cd android & gradlew assembleRelease --console plain",
+    "codepush-android": "code-push release-react AHai android",
+    "codepush-ios": "code-push release-react AHai-ios ios -m",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.x",
+    "react-native-accordion": "^1.0.1",
+    "react-native-admob": "^1.3.2",
+    "react-native-animatable": "^1.2.3",
+    "react-native-audio": "^3.2.2",
+    "react-native-code-push": "^3.0.1-beta",
+    "react-native-elements": "^0.16.0",
+    "react-native-fade-in-image": "^1.0.3",
+    "react-native-fcm": "^9.1.0",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-gifted-chat": "^0.2.9",
+    "react-native-globalize": "^1.2.2",
+    "react-native-img-cache": "^1.4.0",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-local-storage": "^1.5.2",
+    "react-native-navigation": "^1.1.205",
+    "react-native-parallax-scroll": "^1.0.3",
+    "react-native-refresher": "^0.1.1",
+    "react-native-swipeable": "^0.6.0",
+    "react-native-vector-icons": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "react-native-cli": "^2.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "comments": {
+    "comment": "react-native-fetch-blob check package installation if there is any trouble"
+  }
+}
